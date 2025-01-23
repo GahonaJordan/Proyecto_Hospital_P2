@@ -9,8 +9,8 @@ import './componentes/estudiante.css'
 import { Navigate, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Menu from './componentes/menu';
 import Inicio from './componentes/Inicio';
-import Doctor from './componentes/Doctor'; // Add this line to import the Doctor component
-import Paciente from './componentes/Paciente'; // Add this line to import the Paciente component
+import Doctor from './componentes/Doctor'; 
+import Paciente from './componentes/Paciente'; 
 import Footer from './componentes/footer'
 import Asignaciones from './componentes/Asignacion'
 import Estudiante from './componentes/Estudiante'
