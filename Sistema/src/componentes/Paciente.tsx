@@ -117,36 +117,42 @@ const RegistrarPaciente: React.FC<PropsPaciente> = ({
             <input 
                 type="text" 
                 value={nombre} 
+                placeholder="Ingrese el nombre"
                 onChange={(e) => setNombre(e.target.value.replace(/[^a-zA-Z\s]/g, ''))} 
                 required />
             <label>Apellido:</label>
             <input 
                 type="text" 
                 value={apellido} 
+                placeholder="Ingrese el apellido"
                 onChange={(e) => setApellido(e.target.value.replace(/[^a-zA-Z\s]/g, ''))} 
                 required />
             <label>Edad:</label>
             <input 
                 type="number" 
                 value={edad} 
+                placeholder="Ingrese la edad"
                 onChange={(e) => setEdad(Number(e.target.value.replace(/[^0-9]/g, '')))} 
                 required />
             <label>Cedula:</label>
             <input 
                 type="text" 
                 value={cedula} 
+                placeholder="Ingrese la cédula"
                 onChange={(e) => setCedula(e.target.value.replace(/[^0-9]/g, ''))} 
                 required />
             <label>Telefono:</label>
             <input 
                 type="text" 
                 value={telefono} 
+                placeholder="Ingrese el teléfono"
                 onChange={(e) => setTelefono(e.target.value.replace(/[^0-9]/g, ''))} 
                 required />
             <label>Correo:</label>
             <input 
                 type="email" 
                 value={correo} 
+                placeholder="Ingrese el correo"
                 onChange={(e) => setCorreo(e.target.value.replace(/[^a-zA-Z0-9@._-]/g, ''))} 
                 required />
             <label>Fecha de Nacimiento:</label>
@@ -159,12 +165,14 @@ const RegistrarPaciente: React.FC<PropsPaciente> = ({
             <input 
                 type="text" 
                 value={direccion} 
+                placeholder="Ingrese la dirección"
                 onChange={(e) => setDireccion(e.target.value.replace(/[^a-zA-Z0-9\s]/g, ''))} 
                 required />
             <label>Historia Clinica:</label>
             <input 
                 type="text" 
                 value={historia_clinica} 
+                placeholder="Ingrese la historia clínica"
                 onChange={(e) => setHistoria_clinica(e.target.value.replace(/[^a-zA-Z0-9\s]/g, ''))} 
                 required />
                 <button type="button" onClick={manejarAgregarOEditar}>
