@@ -1,0 +1,121 @@
+.contenedor-asignacion {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Título */
+.contenedor-asignacion .titulo h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+
+}
+
+.contenedor-asignacion .formasig form {
+    width: 100%;
+    margin-bottom: 20px;  
+}
+
+.contenedor-asignacion .formasig form label {
+    font-weight: bold;
+    color: #555;
+}
+
+.contenedor-asignacion .formasig form select,
+.contenedor-asignacion .formasig form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.contenedor-asignacion .formasig form button {
+    padding: 10px 20px;
+    background-color: #1eff00;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contenedor-asignacion .formasig form button:hover {
+    background-color: #0056b3; /* Azul oscuro */
+}
+
+/* Tabla */
+.contenedor-asignacion .tabla-asignacion {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 1rem;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor-asignacion .tabla-asignacion thead th {
+    background-color: #007bff; /* Azul */
+    color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-transform: uppercase;
+}
+
+.contenedor-asignacion .tabla-asignacion tbody tr {
+    border: 1px solid #ddd;
+    transition: background-color 0.3s;
+}
+
+.contenedor-asignacion .tabla-asignacion tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color alterno para filas pares */
+}
+
+.contenedor-asignacion .tabla-asignacion tbody tr:hover {
+    background-color: #e9ecef; /* Resaltado al pasar el mouse */
+}
+
+.contenedor-asignacion .tabla-asignacion tbody td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    color: #333;
+}
+
+/* Botones de acciones */
+.contenedor-asignacion .tabla-asignacion .beliminar {
+    background-color: #dc3545; /* Rojo */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contenedor-asignacion .tabla-asignacion .beliminar:hover {
+    background-color: #c82333; /* Rojo oscuro */
+}
+
+.contenedor-asignacion .tabla-asignacion .bactualizar {
+    background-color: #007bff; /* Azul */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.contenedor-asignacion .tabla-asignacion .bactualizar:hover {
+    background-color: #0056b3; /* Azul oscuro */
+}
+
+/* Ajustes para las acciones */
+.contenedor-asignacion .tabla-asignacion tbody td:last-child {
+    text-align: center;
+    white-space: nowrap;
+}

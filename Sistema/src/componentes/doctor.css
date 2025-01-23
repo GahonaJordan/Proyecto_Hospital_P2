@@ -1,0 +1,172 @@
+.contenedor-doctor {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contenedor-doctor .titulo h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilos para el formulario */
+.contenedor-doctor .formDoc form {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contenedor-doctor .formDoc form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.contenedor-doctor .formDoc form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contenedor-doctor .formDoc form button {
+    padding: 10px 20px;
+    background-color: #1eff00;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contenedor-doctor .formDoc form button:hover {
+    background-color: #4ef377;
+}
+
+.contenedor-doctor .formDoc h2 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #333;
+    text-align: left;
+}
+
+/* Estilo para la tabla de doctores */
+.tabla-doctor {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    text-align: left;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los encabezados */
+.tabla-doctor thead th {
+    background-color: #007bff; /* Azul */
+    color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Estilo para las filas */
+.tabla-doctor tbody tr {
+    border: 1px solid #ddd;
+    transition: background-color 0.3s;
+}
+
+.tabla-doctor tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color alterno para filas pares */
+}
+
+.tabla-doctor tbody tr:hover {
+    background-color: #e9ecef; /* Color al pasar el ratón */
+}
+
+/* Estilo para las celdas */
+.tabla-doctor tbody td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    color: #333;
+}
+
+/* Botón de eliminar */
+.tabla-doctor .beliminar {
+    background-color: #dc3545; /* Rojo */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-right: 5px;
+    transition: background-color 0.3s;
+}
+
+.tabla-doctor .beliminar:hover {
+    background-color: #c82333; /* Rojo oscuro al pasar el mouse */
+}
+
+/* Botón de actualizar */
+.tabla-doctor .bactualizar {
+    background-color: #007bff; /* Azul */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+.tabla-doctor .bactualizar:hover {
+    background-color: #0056b3; /* Azul oscuro al pasar el mouse */
+}
+
+/* Ajuste para la columna de acciones */
+.tabla-doctor tbody td:last-child {
+    text-align: center;
+    white-space: nowrap;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+}
+
+select {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+select option {
+    font-size: 1rem;
+    color: #333;
+}
+
+select:disabled {
+    background-color: #f5f5f5;
+    color: #aaa;
+    cursor: not-allowed;
+}
+
+

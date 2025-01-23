@@ -1,0 +1,53 @@
+.estudiante-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Fondo claro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+    border-radius: 10px; /* Bordes redondeados */
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Color de texto */
+}
+
+.card-imagen img {
+    width: 100%;
+    max-width: 600px; /* Limita el tamaño de la imagen */
+    border-radius: 10px; /* Bordes redondeados para la imagen */
+    margin-bottom: 20px; /* Separación inferior */
+}
+
+.estudiante-cabeza {
+    font-size: 1.8rem; /* Tamaño de texto grande */
+    font-weight: bold;
+    color: #2c3e50; /* Azul oscuro */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.estudiante-description {
+    font-size: 1.2rem; /* Tamaño de texto medio */
+    color: #7f8c8d; /* Gris */
+    margin-bottom: 20px; /* Separación inferior */
+    text-align: justify;
+}
+
+.estudiante-subtitulo, 
+.estudiante-subtitulo2 {
+    font-size: 1.5rem; /* Tamaño de subtítulos */
+    font-weight: bold;
+    color: #34495e; /* Otro tono de azul oscuro */
+    margin-bottom: 10px;
+}
+
+.estudiante-experiencia,
+.estudiante-habilidades {
+    font-size: 1rem;
+    line-height: 1.6; /* Mejor legibilidad */
+    color: #555; /* Gris oscuro */
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
